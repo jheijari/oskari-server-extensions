@@ -2,7 +2,6 @@
     "setup" : [
         "create-empty-db",
         "register-bundles",
-        "postgres-add-myplaces",
         "asdi-add-users",
         "asdi-add-JAAS",
         {
