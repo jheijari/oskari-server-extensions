@@ -1,0 +1,19 @@
+{
+    "setup" : [
+        "create-empty-db",
+        "register-bundles",
+        "postgres-add-myplaces",
+        "asdi-add-users",
+        "asdi-add-JAAS",
+        {
+            "sql": [
+                "populate-Inspire-themes.sql",
+                "populate-asdi-group.sql"
+            ]
+        }
+    ],
+    "views" : [
+        "asdi-view.json",
+        "asdi-publisher-template-view.json"
+    ]
+}
