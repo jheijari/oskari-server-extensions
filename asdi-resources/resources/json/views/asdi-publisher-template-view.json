@@ -69,6 +69,9 @@
                         "oskariui" : {
                             "bundlePath" : "/Oskari/packages/framework/bundle/"
                         },
+                        "ui-components" : {
+                            "bundlePath" : "/Oskari/packages/framework/bundle/"
+                        },
                         "mapfull" : {
                             "bundlePath" : "/Oskari/packages/framework/bundle/"
                         }
@@ -84,7 +87,6 @@
                     { "id" : "Oskari.mapframework.bundle.mapmodule.plugin.LayersPlugin" },
                     { "id" : "Oskari.mapframework.mapmodule.WmsLayerPlugin" },
                     { "id" : "Oskari.mapframework.wmts.mapmodule.plugin.WmtsLayerPlugin" },
-                    { "id" : "Oskari.mapframework.bundle.mapstats.plugin.StatsLayerPlugin" },
                     {
                     	"id":"Oskari.mapframework.bundle.mapmodule.plugin.LogoPlugin"
                     }
