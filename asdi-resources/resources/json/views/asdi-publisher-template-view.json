@@ -66,6 +66,9 @@
                         "mapwmts" : {
                             "bundlePath" : "/Oskari/packages/framework/bundle/"
                         },
+                        "maparcgis": {
+                            "bundlePath": "/Oskari/packages/arcgis/bundle/"
+                        },
                         "oskariui" : {
                             "bundlePath" : "/Oskari/packages/framework/bundle/"
                         },
