@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Artic SDI Guest - ${viewName} view</title>
+    <title>Artic SDI - ${viewName} view</title>
     <meta charset="utf-8" />
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -29,8 +29,9 @@
             href="/Oskari${path}/css/overwritten.css"/>
     <style type="text/css">
         @media screen {
-#login {
+    #login {
 		margin-left: 5px;
+        margin-top: 20px;
 	}
 	#login input[type="text"],#login input[type="password"] {
 		width: 90%;
