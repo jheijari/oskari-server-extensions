@@ -44,8 +44,10 @@ public class V1_0_1__Add_Arcgis_support implements JdbcMigration {
         LOG.info("Got", list.size(), "views on page", page);
         for(View view : list) {
             final Bundle mapfull = view.getBundleByName(ViewModifier.BUNDLE_MAPFULL);
-            boolean updated = updateImportBundles(mapfull) || addPlugin(mapfull);
-            if(!updated) {
+            boolean addedImport = updateImportBundles(mapfull);
+            boolean addedPlugin = addPlugin(mapfull);
+            if(!addedImport && !addedPlugin) {
+                // if neither was done, skip update
                 continue;
             }
             service.updateBundleSettingsForView(view.getId(), mapfull);
