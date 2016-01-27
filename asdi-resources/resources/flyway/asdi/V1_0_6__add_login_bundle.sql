@@ -3,7 +3,6 @@
 INSERT
 INTO portti_bundle
 (
-	id,
 	name,
 	config,
 	state,
@@ -11,7 +10,6 @@ INTO portti_bundle
 )
 VALUES
 (
-	(SELECT max(id)+1 FROM portti_bundle),
 	'asdi-login',
 	'{}',
 	'{}',
