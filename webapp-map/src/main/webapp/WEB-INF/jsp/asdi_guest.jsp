@@ -96,14 +96,6 @@
                  <c:if test="${!empty _login_uri_saml}">
                      <a href="${pageContext.request.contextPath}${_login_uri_saml}"><spring:message code="login.sso" text="SSO login" /></a><hr />
                  </c:if>
-                 <c:if test="${!empty _login_uri && !empty _login_field_user}">
-                     <form action='${pageContext.request.contextPath}${_login_uri}' method="post" accept-charset="UTF-8">
-                         <input size="16" id="username" name="${_login_field_user}" type="text" placeholder="<spring:message code="username" text="Username" />" autofocus
-                                required>
-                         <input size="16" id="password" name="${_login_field_pass}" type="password" placeholder="<spring:message code="password" text="Password" />" required>
-                         <input type="submit" id="submit" value="<spring:message code="login" text="Log in" />">
-                     </form>
-                 </c:if>
              </c:otherwise>
          </c:choose>
     </div>
@@ -127,6 +119,11 @@
 
 <script type="text/javascript"
         src="/Oskari/bundles/bundle.js">
+</script>
+
+<!--  OPENLAYERS -->
+<script type="text/javascript"
+        src="/Oskari/packages/openlayers/startup.js">
 </script>
 
 <c:if test="${preloaded}">
