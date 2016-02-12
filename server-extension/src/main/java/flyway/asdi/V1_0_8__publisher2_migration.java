@@ -1,4 +1,4 @@
-package flyway.sample;
+package flyway.asdi;
 
 import fi.nls.oskari.log.LogFactory;
 import fi.nls.oskari.log.Logger;
