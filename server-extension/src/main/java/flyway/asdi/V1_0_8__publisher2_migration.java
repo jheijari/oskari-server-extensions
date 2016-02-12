@@ -13,8 +13,8 @@ import java.util.List;
 /**
  * Created by Marko Kuosmanen on 25.9.2015.
  */
-public class V1_0_5__publisher2_migration implements JdbcMigration {
-    private static final Logger LOG = LogFactory.getLogger(V1_0_5__publisher2_migration.class);
+public class V1_0_8__publisher2_migration implements JdbcMigration {
+    private static final Logger LOG = LogFactory.getLogger(V1_0_8__publisher2_migration.class);
 
     public void migrate(Connection connection)
             throws Exception {
