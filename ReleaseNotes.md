@@ -2,7 +2,9 @@
 
 ## 1.2
 
-Added VectorLayerPlugin for all views.
+- Upgraded Oskari version to 1.36.1
+
+- Added VectorLayerPlugin for all views.
 
 ## 1.1
 
