@@ -1,0 +1,1138 @@
+{
+  "metadata-codelist": {
+    "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+    "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory:2",
+    "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+    "historyversion": [
+      {
+        "version": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory:1"
+      }
+    ],
+    "language": "en",
+    "label": {
+      "lang": "en",
+      "text": "Topic categories in accordance with EN ISO 19115"
+    },
+    "itemclass": {
+      "id": "MetadataCodeList",
+      "label": {
+        "lang": "en",
+        "text": "Metadata Code list"
+      }
+    },
+    "status": {
+      "id": " http://inspire.ec.europa.eu/registry/status/valid",
+      "label": {
+        "lang": "en",
+        "text": "Valid"
+      }
+    },
+    "governance-level": {
+      "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+      "label": {
+        "lang": "en",
+        "text": "eu-legal"
+      }
+    },
+    "register": {
+      "id": "http://inspire.ec.europa.eu/metadata-codelist",
+      "label": {
+        "lang": "en",
+        "text": "INSPIRE metadata code list register"
+      },
+      "registry": {
+        "id": "http://inspire.ec.europa.eu/registry",
+        "label": {
+          "lang": "en",
+          "text": "INSPIRE registry"
+        }
+      }
+    },
+    "containeditems": [
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/farming",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/farming:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/farming",
+          "label": {
+            "lang": "en",
+            "text": "Farming"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Rearing of animals and/or cultivation of plants."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/biota",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/biota:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/biota",
+          "label": {
+            "lang": "en",
+            "text": "Biota"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Flora and/or fauna in natural environment."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/boundaries",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/boundaries:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/boundaries",
+          "label": {
+            "lang": "en",
+            "text": "Boundaries"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Legal land descriptions."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/climatologyMeteorologyAtmosphere",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/climatologyMeteorologyAtmosphere:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/climatologyMeteorologyAtmosphere",
+          "label": {
+            "lang": "en",
+            "text": "Climatology / Meteorology / Atmosphere"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Processes and phenomena of the atmosphere."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/economy",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/economy:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/economy",
+          "label": {
+            "lang": "en",
+            "text": "Economy"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Economic activities, conditions and employment."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/elevation",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/elevation:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/elevation",
+          "label": {
+            "lang": "en",
+            "text": "Elevation"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Height above or below sea level."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/environment",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/environment:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/environment",
+          "label": {
+            "lang": "en",
+            "text": "Environment"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Environmental resources, protection and conservation."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/geoscientificInformation",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/geoscientificInformation:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/geoscientificInformation",
+          "label": {
+            "lang": "en",
+            "text": "Geoscientific Information"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Information pertaining to earth sciences."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/health",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/health:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/health",
+          "label": {
+            "lang": "en",
+            "text": "Health"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Health, health services, human ecology, and safety."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/imageryBaseMapsEarthCover",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/imageryBaseMapsEarthCover:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/imageryBaseMapsEarthCover",
+          "label": {
+            "lang": "en",
+            "text": "Imagery / Base Maps / Earth Cover"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Base maps."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/intelligenceMilitary",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/intelligenceMilitary:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/intelligenceMilitary",
+          "label": {
+            "lang": "en",
+            "text": "Intelligence / Military"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Military bases, structures, activities."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/inlandWaters",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/inlandWaters:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/inlandWaters",
+          "label": {
+            "lang": "en",
+            "text": "Inland Waters"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Inland water features, drainage systems and their characteristics."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/location",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/location:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/location",
+          "label": {
+            "lang": "en",
+            "text": "Location"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Positional information and services."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/oceans",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/oceans:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/oceans",
+          "label": {
+            "lang": "en",
+            "text": "Oceans"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Features and characteristics of salt water bodies (excluding inland waters)."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/planningCadastre",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/planningCadastre:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/planningCadastre",
+          "label": {
+            "lang": "en",
+            "text": "Planning / Cadastre"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Information used for appropriate actions for future use of the land."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/society",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/society:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/society",
+          "label": {
+            "lang": "en",
+            "text": "Society"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Characteristics of society and cultures."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/structure",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/structure:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/structure",
+          "label": {
+            "lang": "en",
+            "text": "Structure"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Man-made construction."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/transportation",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/transportation:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/transportation",
+          "label": {
+            "lang": "en",
+            "text": "Transportation"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Means and aids for conveying persons and/or goods."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/utilitiesCommunication",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/utilitiesCommunication:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/utilitiesCommunication",
+          "label": {
+            "lang": "en",
+            "text": "Utilities / Communication"
+          },
+          "definition": {
+            "lang": "en",
+            "text": "Energy, water and waste systems and communications infrastructure and services."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "en",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "en",
+              "text": "Valid"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "en",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "en",
+                "text": "INSPIRE registry"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "en",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "en",
+              "text": "Topic categories in accordance with EN ISO 19115"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
+    

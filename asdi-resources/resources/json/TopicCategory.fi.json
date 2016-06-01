@@ -1,0 +1,1138 @@
+{
+  "metadata-codelist": {
+    "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+    "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory:2",
+    "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+    "historyversion": [
+      {
+        "version": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory:1"
+      }
+    ],
+    "language": "fi",
+    "label": {
+      "lang": "fi",
+      "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+    },
+    "itemclass": {
+      "id": "MetadataCodeList",
+      "label": {
+        "lang": "fi",
+        "text": "Metadata Code list"
+      }
+    },
+    "status": {
+      "id": " http://inspire.ec.europa.eu/registry/status/valid",
+      "label": {
+        "lang": "fi",
+        "text": "Voimassa oleva"
+      }
+    },
+    "governance-level": {
+      "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+      "label": {
+        "lang": "fi",
+        "text": "eu-legal"
+      }
+    },
+    "register": {
+      "id": "http://inspire.ec.europa.eu/metadata-codelist",
+      "label": {
+        "lang": "fi",
+        "text": "INSPIRE metadata code list register"
+      },
+      "registry": {
+        "id": "http://inspire.ec.europa.eu/registry",
+        "label": {
+          "lang": "fi",
+          "text": "INSPIRE-rekisteripalvelu"
+        }
+      }
+    },
+    "containeditems": [
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/farming",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/farming:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/farming",
+          "label": {
+            "lang": "fi",
+            "text": "Maatalous"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Kotieläinten kasvatus ja/tai kasvinviljely."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/biota",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/biota:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/biota",
+          "label": {
+            "lang": "fi",
+            "text": "Eläin- ja kasvikunta"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Kasvisto ja eläimistö luonnonympäristössä."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/boundaries",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/boundaries:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/boundaries",
+          "label": {
+            "lang": "fi",
+            "text": "Rajat"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Lakisääteiset maan alueiden kuvaukset."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/climatologyMeteorologyAtmosphere",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/climatologyMeteorologyAtmosphere:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/climatologyMeteorologyAtmosphere",
+          "label": {
+            "lang": "fi",
+            "text": "Ilmastotiede/meteorologia/ilmakehä"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Ilmakehän prosessit ja ilmiöt."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/economy",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/economy:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/economy",
+          "label": {
+            "lang": "fi",
+            "text": "Talous"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Taloudellinen toimeliaisuus, taloudelliset olot ja työllisyys."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/elevation",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/elevation:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/elevation",
+          "label": {
+            "lang": "fi",
+            "text": "Korkeus"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Korkeus tai syvyys merenpinnasta."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/environment",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/environment:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/environment",
+          "label": {
+            "lang": "fi",
+            "text": "Ympäristö"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Luonnonvarat, luonnonsuojelu ja ympäristönsuojelu."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/geoscientificInformation",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/geoscientificInformation:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/geoscientificInformation",
+          "label": {
+            "lang": "fi",
+            "text": "Geotieteet"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Geotieteisiin liittyvää informaatiota."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/health",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/health:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/health",
+          "label": {
+            "lang": "fi",
+            "text": "Terveys"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Terveys, terveyspalvelut, sosiaaliekologia ja turvallisuus."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/imageryBaseMapsEarthCover",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/imageryBaseMapsEarthCover:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/imageryBaseMapsEarthCover",
+          "label": {
+            "lang": "fi",
+            "text": "Kuvat/peruskartat/maanpeite"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Peruskartat."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/intelligenceMilitary",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/intelligenceMilitary:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/intelligenceMilitary",
+          "label": {
+            "lang": "fi",
+            "text": "Tiedustelu/puolustus"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Sotilastukikohdat, puolustusrakenteet, sotilastoiminta."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/inlandWaters",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/inlandWaters:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/inlandWaters",
+          "label": {
+            "lang": "fi",
+            "text": "Sisävedet"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Sisävesikohteet, valumajärjestelmät ja niiden ominaispiirteet."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/location",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/location:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/location",
+          "label": {
+            "lang": "fi",
+            "text": "Sijainti"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Paikantamiseen liittyvä tieto tai palvelu."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/oceans",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/oceans:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/oceans",
+          "label": {
+            "lang": "fi",
+            "text": "Valtameret"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Suolaisten vesimassojen (lukuun ottamatta sisävesiä) ominaispiirteet."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/planningCadastre",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/planningCadastre:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/planningCadastre",
+          "label": {
+            "lang": "fi",
+            "text": "Aluesuunnittelu/kiinteistöjärjestelmä"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Maan käyttöön ja suunnitteluun liittyvää informaatiota."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/society",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/society:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/society",
+          "label": {
+            "lang": "fi",
+            "text": "Yhteiskunta"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Yhteiskuntaa ja kulttuuria kuvaavat ominaispiirteet."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/structure",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/structure:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/structure",
+          "label": {
+            "lang": "fi",
+            "text": "Rakennelma"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Keinotekoiset rakenteet."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/transportation",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/transportation:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/transportation",
+          "label": {
+            "lang": "fi",
+            "text": "Liikenne"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Ihmisten ja tavaroiden kuljetukseen käytetyt tavat."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      },
+      {
+        "value": {
+          "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/utilitiesCommunication",
+          "thisversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/utilitiesCommunication:1",
+          "latestversion": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/utilitiesCommunication",
+          "label": {
+            "lang": "fi",
+            "text": "Johtoverkot/viestintä"
+          },
+          "definition": {
+            "lang": "fi",
+            "text": "Energia-, vesi- ja jätejärjestelmät sekä viestintäinfrastruktuuri ja -palvelut."
+          },
+          "itemclass": {
+            "id": "MetadataCodeListValue",
+            "label": {
+              "lang": "fi",
+              "text": "Metadata Code list value"
+            }
+          },
+          "status": {
+            "id": "http://inspire.ec.europa.eu/registry/status/valid",
+            "label": {
+              "lang": "fi",
+              "text": "Voimassa oleva"
+            }
+          },
+          "register": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist",
+            "label": {
+              "lang": "fi",
+              "text": "INSPIRE metadata code list register"
+            },
+            "registry": {
+              "id": "http://inspire.ec.europa.eu/registry",
+              "label": {
+                "lang": "fi",
+                "text": "INSPIRE-rekisteripalvelu"
+              }
+            }
+          },
+          "governance-level": {
+            "id": "http://inspire.ec.europa.eu/registry/governance-level/eu-legal",
+            "label": {
+              "lang": "fi",
+              "text": "eu-legal"
+            }
+          },
+          "metadata-codelist": {
+            "id": "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory",
+            "label": {
+              "lang": "fi",
+              "text": "Aiheluokka standardin EN ISO 19115 mukaisesti"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
+    

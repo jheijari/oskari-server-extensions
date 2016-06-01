@@ -26,6 +26,12 @@
             <artifactId>oskari-search-nls</artifactId>
             <version>${oskari.version}</version>
         </dependency>
+        <dependency>
+            <groupId>asdi.oskari</groupId>
+            <artifactId>asdi-resources</artifactId>
+            <version>${project.version}</version>
+            <scope>test</scope>
+        </dependency>
 
         <dependency>
             <groupId>junit</groupId>
