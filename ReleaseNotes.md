@@ -1,5 +1,11 @@
 # ReleaseNotes
 
+## 1.2
+
+- Upgraded Oskari version to 1.36.1
+
+- Added VectorLayerPlugin for all views.
+
 ## 1.1
 
 Using the spring-based Oskari-map. Need to add annotations support to Jetty in {JETTY_HOME}/start.ini:
