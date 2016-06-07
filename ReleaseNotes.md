@@ -1,5 +1,9 @@
 # ReleaseNotes
 
+## 1.2.1
+
+Updated to oskari-server 1.36.2
+
 ## 1.2
 
 - Upgraded Oskari version to 1.36.1
