@@ -65,7 +65,7 @@ public class V1_5_0__Remove_LogoPlugin_config implements JdbcMigration {
         for(int i = 0; i < plugins.length(); ++i) {
             JSONObject plugin = plugins.getJSONObject(i);
             if(PLUGIN_NAME.equals(plugin.optString("id"))) {
-                JSONObject pluginConfig = plugin.getJSONObject("config");
+                JSONObject pluginConfig = plugin.optJSONObject("config");
                 if(pluginConfig == null) {
                     break;
                 }
