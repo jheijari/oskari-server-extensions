@@ -77,6 +77,9 @@
                         "oskariui" : {
                             "bundlePath" : "/Oskari/packages/framework/bundle/"
                         },
+                        "ui-components" : {
+                            "bundlePath" : "/Oskari/packages/framework/bundle/"
+                        },
                         "mapfull" : {
                             "bundlePath" : "/Oskari/packages/framework/bundle/"
                         }
