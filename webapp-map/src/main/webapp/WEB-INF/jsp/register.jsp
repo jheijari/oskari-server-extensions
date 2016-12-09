@@ -322,7 +322,7 @@
                     data: data,
                     success: function (data) {
                         // FIXME: show confirmation about mail being sent
-                        showModal('<spring:message code="user.registration.edit..success"/>', true);
+                        showModal('<spring:message code="user.registration.edit.success"/>', true);
                     },
                     error: function (jqXHR, textStatus, errorThrown) {
                         //TODO: error handling
@@ -392,7 +392,7 @@
         }
 
         if (!isEmailValid(email)) {
-            errorMsg('#errorEmail', '<spring:message code="user.registration.error.invalidEmailError"/>');
+            errorMsg('#errorEmail', '<spring:message code="user.registration.error.invalidEmail"/>');
             flag = false;
         }
         return flag;
