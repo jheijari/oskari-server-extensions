@@ -96,6 +96,9 @@
                  <c:if test="${!empty _login_uri_saml}">
                      <a href="${pageContext.request.contextPath}${_login_uri_saml}"><spring:message code="login.sso" text="SSO login" /></a><hr />
                  </c:if>
+                 <c:if test="${!empty _registration_uri}">
+                    <a href="${pageContext.request.contextPath}${_registration_uri}"><spring:message code="user.registration" text="Register" /></a>
+                </c:if>                 
              </c:otherwise>
          </c:choose>
     </div>

@@ -47,7 +47,11 @@
             <artifactId>oskari-control-admin</artifactId>
             <version>${oskari.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>fi.nls.oskari.service</groupId>
+            <artifactId>oskari-control-users</artifactId>
+            <version>${oskari.version}</version>
+        </dependency>
         <dependency>
             <groupId>fi.nls.oskari</groupId>
             <artifactId>service-logging</artifactId>
