@@ -31,16 +31,7 @@
                 /*margin-left: 153px;*/
                 margin: auto;
             }
-
-            #maptools {
-                background-color: #333438;
-                height: 100%;
-                position: absolute;
-                top: 0;
-                width: 153px;
-                z-index: 2;
-            }
-
+            
             #register {
                 padding-left: 25px;
             }
@@ -58,8 +49,6 @@
                 border-radius: 5px;
                 font-size: 14px;
                 height: 30px;
-                /*padding-left: 10px;*/
-                /*padding-right: 10px;*/
             }
 
             .column-field-input:focus {
@@ -71,10 +60,10 @@
                 text-align: center;
             }
 
-            #frontpage, #frontpage:visited, #deleteUser {
-                color: #3399FF;
+            #frontpage {
+              padding-top: 30px;
+              display: block;
             }
-
             #forgotPassword {
                 padding-top: 25px;
                 font-size: 20px;
@@ -103,21 +92,12 @@
 </head>
 <body>
 
-<nav id="maptools">
-    <div id="etusivu">
-        <a href="#" id="frontpage"><spring:message code="oskari.backToFrontpage"/></a><br><br>
-        <c:if test="${!empty id}">
-            <a href="#" id="deleteUser"><spring:message code="btn.user.delete"/></a>
-        </c:if>
-    </div>
-</nav>
-
 <div class="container">
   <%-- Signed in --%>
   <c:choose>
       <c:when test="${editExisting}">
       <div class="row">
-          <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-4">
+          <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
           <form role="form">
             <h1><spring:message code="user.registration.edit.title"/></h1>
             <hr class="colorgraph">
@@ -145,23 +125,25 @@
               </span>
                       <br/>
               <span>
-                <button class="btn btn-primary" id="saveBtn"><spring:message code="btn.save"/></button>
+                <button type="button" class="btn btn-primary" id="saveBtn"><spring:message code="btn.save"/></button>
               </span>
               <span>
-                <button class="btn btn-default" id="cancelBtn"><spring:message code="btn.cancel"/></button>
+                <button  type="button" class="btn btn-default" id="cancelBtn"><spring:message code="btn.cancel"/></button>
               </span>
               <hr class="colorgraph">
-                      <br><br><br>
+                      <br>
                       <span class="content-column"> <a href="#" id="changePassword"><spring:message
                               code="btn.newPassword"/></a> </span>
                       (<spring:message code="user.help.passwordReset"/>)
+                      <br>
+                      <a href="#" id="deleteUser"><spring:message code="btn.user.delete"/></a>
             </form>
           </div>
         </div>
       </c:when>
       <%-- Not signed in --%>
      <c:otherwise>
-          <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-4">
+          <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
       		<form role="form">
       			<h2>Register</h2>
             <hr class="colorgraph">
@@ -184,17 +166,20 @@
       			<div class="form-group">
       				<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
       			</div>
-        </c:otherwise>
-      </c:choose>
 
 			<hr class="colorgraph">
 			<div class="row">
 				<div class="col-xs-12 col-md-6"><input type="button" value="Register" class="btn btn-primary btn-block btn-lg" id="registerBtn" tabindex="7"></div>
         <br><br>
-        <a class="col-xs-12" href="#" id="forgotPassword"><spring:message code="btn.forgotPassword"/></a>
+        </div>
+        <div class="row">
+            <div class="col-md-5"><a href="#" id="forgotPassword"><spring:message code="btn.forgotPassword"/></a></div>
+            <div class="col-md-5"><a href="#" id="frontpage"><spring:message code="oskari.backToFrontpage"/></a></div>
+        </div>
 			</div>
 		</form>
-	</div>
+</c:otherwise>
+</c:choose>
 </div>
 
 <!-- RegistrationModal -->
@@ -240,8 +225,6 @@
                 $("#lastname").val(data.lastName);
                 $("#email").val(data.email);
                 $("body").show();
-
-                showModal('<spring:message code="user.registration.edit.success"/>');
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 //TODO: error handling

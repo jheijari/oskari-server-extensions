@@ -31,15 +31,6 @@
         margin: auto;
 			}
 
-			#maptools {
-				background-color: #333438;
-				height: 100%;
-				position: absolute;
-				top: 0;
-				width: 153px;
-				z-index: 2;
-			}
-
 			.column-field-label {
 				font-size: 20px;
 				line-height: 2;
@@ -123,12 +114,6 @@
 </head>
 <body>
 
-<nav id="maptools">
-    <div id="etusivu">
-    	<a href="#" id="frontpage"><spring:message code="oskari.backToFrontpage"/></a>
-    </div>
-</nav>
-
 <div id="container">
   <div class="row">
      <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-5">
@@ -149,6 +134,9 @@
           </div>
         </div>
         <hr class="colorgraph">
+          <div class="row">
+              <div class="col-md-5"><a href="#" id="frontpage"><spring:message code="oskari.backToFrontpage"/></a></div>
+          </div>
     </form>
   </div>
 </div>
@@ -204,8 +192,8 @@ function isEmailValid(email) {
 }
 function showModal(msg, error) {
   error === true ? $('.password-alert').html(msg).addClass('alert-danger') : $('.password-alert').html(msg).addClass('alert-success');
-  $('#passwordModal').modal('show');
   setTimeout(function() {$('#passwordModal').modal('hide');}, 2000);
+  $('#passwordModal').modal('show');
 }
 
 </script>
