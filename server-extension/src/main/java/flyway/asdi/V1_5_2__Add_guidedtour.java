@@ -23,12 +23,6 @@ import java.util.List;
  */
 public class V1_5_2__Add_guidedtour implements JdbcMigration {
 
-    private static final Logger LOG = LogFactory.getLogger(V1_5_2__Add_guidedtour.class);
-
-    private ViewService service = new ViewServiceIbatisImpl();
-    private static final int BATCH_SIZE = 50;
-    private int updatedViewCount = 0;
-
     private static final String BUNDLE_ID = "asdi-guided-tour";
 
     public void migrate(Connection connection)
