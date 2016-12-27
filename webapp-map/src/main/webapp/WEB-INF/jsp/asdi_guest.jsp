@@ -93,15 +93,19 @@
              </c:when>
              <%-- Otherwise show appropriate logins --%>
              <c:otherwise>
-                 <c:if test="${!empty _login_uri_saml}">
-                     <a href="${pageContext.request.contextPath}${_login_uri_saml}"><spring:message code="login.sso" text="SSO login" /></a><hr />
-                 </c:if>
-                 <c:if test="${!empty _registration_uri}">
-                    <a href="${pageContext.request.contextPath}${_registration_uri}"><spring:message code="user.registration" text="Register" /></a>
-                </c:if>                 
+              <c:if test="${!empty _login_uri_saml}">
+                <div>
+                  <a href="${pageContext.request.contextPath}${_login_uri_saml}"><spring:message code="login.sso" text="SSO login" /></a><hr />
+                </div>
+              </c:if>
              </c:otherwise>
          </c:choose>
     </div>
+    <c:if test="${!empty _registration_uri}">
+        <div>
+            <a id="userRegistration" href="${pageContext.request.contextPath}${_registration_uri}"><spring:message code="user.registration" text="Register" /></a>
+        </div>
+    </c:if>
 </nav>
 <div id="contentMap">
     <div id="mapdiv"></div>
@@ -116,6 +120,9 @@
     var ajaxUrl = '${ajaxUrl}';
     var language = '${language}';
     var controlParams = ${controlParams};
+</script>
+<script>
+    document.getElementById(#userRegistration);
 </script>
 
 <script type="text/javascript"
