@@ -116,7 +116,7 @@
 
 <div id="container">
   <div class="row">
-     <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-5">
+     <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-4">
          <form role="form" id="passwordResetForm">
     	    <h1><spring:message code="user.registration.passwordReset.title"/></h1>
           <hr class="colorgraph">
