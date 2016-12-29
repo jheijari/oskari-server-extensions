@@ -121,9 +121,6 @@
     var language = '${language}';
     var controlParams = ${controlParams};
 </script>
-<script>
-    document.getElementById(#userRegistration);
-</script>
 
 <script type="text/javascript"
         src="/Oskari/bundles/bundle.js">
