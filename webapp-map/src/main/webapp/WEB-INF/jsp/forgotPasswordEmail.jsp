@@ -182,7 +182,7 @@ $(document).ready(function () {
 				}
 			});
 		} else
-			jQuery("#error").html('<spring:message code="user.registration.error.invalidEmail"/>');
+			jQuery("#error").html('<spring:message javaScriptEscape="true" code="user.registration.error.invalidEmail"/>');
 	});
 });
 

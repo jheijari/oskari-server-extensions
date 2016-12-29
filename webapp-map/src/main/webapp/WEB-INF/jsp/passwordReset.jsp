@@ -125,17 +125,11 @@
 </head>
 <body>
 
-<nav id="maptools">
-    <div id="etusivu">
-    	<a href="#" id="frontpage"><spring:message code="oskari.backToFrontpage"/></a>
-    </div>
-</nav>
-
 <div id="container">
 		<c:choose>
 			<c:when test="${!empty uuid}">
         <div class="row">
-          <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-4">
+          <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-5">
         <form role="form" id="requestPassword">
           <h1><spring:message code="user.registration.passwordReset.title"/></h1>
           <hr class="colorgraph">
@@ -148,9 +142,10 @@
 						<label id="unmatchedPassword" class="error"></label>
 					<br />
           <hr class="colorgraph">
-					<span>
-						<span><input class="btn btn-primary" size="16" id="reset" type="button" value="<spring:message code="btn.password.reset"/>"></span>
-					</span>
+          <div class="row">
+            <div class="col-md-5"><input class="btn btn-primary" size="16" id="reset" type="button" value="<spring:message code="btn.password.reset"/>"></div>
+            <div class="col-md-5"><a href="#" id="frontpage"><spring:message code="oskari.backToFrontpage"/></a></div>
+          </div>
 				</form>
 			</c:when>
 			<c:otherwise>
@@ -190,7 +185,7 @@ $(document).ready(function () {
 		var confirmPassword = jQuery('#confirmPassword').val();
 
 		if (password != confirmPassword) {
-			jQuery('#unmatchedPassword').text('<spring:message code="user.registration.error.passwordDoesNotMatch"/>');
+			jQuery('#unmatchedPassword').text('<spring:message javaScriptEscape="true" code="user.registration.error.passwordDoesNotMatch"/>');
 			return;
 		}
 
@@ -206,7 +201,7 @@ $(document).ready(function () {
 				}),
 			success: function(data) {
 				// FIXME: show confirmation about mail being sent
-				showModal('<spring:message code="oskari.password.changed"/>')
+				showModal('<spring:message javaScriptEscape="true" code="oskari.password.changed"/>')
 			},
 			error: function(jqXHR, textStatus, errorThrown) {
 				//TODO: error handling
