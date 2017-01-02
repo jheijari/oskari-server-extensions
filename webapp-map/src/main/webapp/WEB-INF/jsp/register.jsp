@@ -31,7 +31,7 @@
                 /*margin-left: 153px;*/
                 margin: auto;
             }
-            
+
             #register {
                 padding-left: 25px;
             }
@@ -283,7 +283,7 @@
                             errorMsg("#username", '<spring:message code="user.registration.error.usernameExists"/>');
                         } else {
                             //TODO: error handling
-                            errorMsg("#errorGeneral", jqXHR.responseText);
+                            errorMsg("#errorGeneral", '<spring:message code="user.registration.error.general"/>');
                         }
                     }
                 });
@@ -309,7 +309,7 @@
                     },
                     error: function (jqXHR, textStatus, errorThrown) {
                         //TODO: error handling
-                        errorMsg("#errorGeneral", jqXHR.responseText);
+                        errorMsg("#errorGeneral", '<spring:message code="user.registration.error.general"/>');
                     }
                 });
             }
