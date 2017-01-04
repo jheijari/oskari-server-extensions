@@ -92,14 +92,9 @@
 				position: relative;
 				top: 20px;
 			}
-
-			#etusivu {
-				padding-top: 20px;
-				text-align: center;
-			}
-
 			#frontpage, #frontpage:visited {
 				color: #3399FF;
+        font-size: 20px;
 			}
       #requestPassword{
         width:400px;
@@ -125,13 +120,13 @@
 </head>
 <body>
 
-<div id="container">
+<div class="container">
 		<c:choose>
 			<c:when test="${!empty uuid}">
         <div class="row">
-          <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-5">
+          <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-4">
         <form role="form" id="requestPassword">
-          <h1><spring:message code="user.registration.passwordReset.title"/></h1>
+          <h1><spring:message code="user.registration.finalize"/></h1>
           <hr class="colorgraph">
             <div class="form-group">
 						  <input class="form-control input-lg" size="16" id="password" name="password" type="password" placeholder="Password" autofocus required>
@@ -143,8 +138,8 @@
 					<br />
           <hr class="colorgraph">
           <div class="row">
-            <div class="col-md-5"><input class="btn btn-primary" size="16" id="reset" type="button" value="<spring:message code="btn.password.reset"/>"></div>
-            <div class="col-md-5"><a href="#" id="frontpage"><spring:message code="oskari.backToFrontpage"/></a></div>
+            <div class="col-md-5"><input class="btn btn-primary" size="16" id="reset" type="button" value="<spring:message code="btn.setPassword"/>"></div>
+            <div class="col-md-5"><a href="#" id="frontpage" class="hidden"><spring:message code="oskari.goToFrontpage"/></a></div>
           </div>
 				</form>
 			</c:when>
@@ -200,8 +195,12 @@ $(document).ready(function () {
 					uuid: uuid
 				}),
 			success: function(data) {
-				// FIXME: show confirmation about mail being sent
-				showModal('<spring:message javaScriptEscape="true" code="oskari.password.changed"/>')
+				showModal('<spring:message javaScriptEscape="true" code="oskari.password.changed"/>');
+        $("#frontpage").removeClass('hidden');
+        setTimeout(function() {
+          var host = window.location.protocol + "//" + window.location.host;
+        	window.location.replace(host);
+        }, 3000);
 			},
 			error: function(jqXHR, textStatus, errorThrown) {
 				//TODO: error handling
