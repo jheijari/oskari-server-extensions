@@ -55,17 +55,13 @@
                 background-color: #ECF9EC;
             }
 
-            #etusivu {
-                padding-top: 20px;
-                text-align: center;
-            }
-
             #frontpage {
               padding-top: 30px;
               display: block;
+              font-size: 20px;
             }
             #forgotPassword {
-                padding-top: 25px;
+                padding-top: 30px;
                 font-size: 20px;
                 display: block;
             }
