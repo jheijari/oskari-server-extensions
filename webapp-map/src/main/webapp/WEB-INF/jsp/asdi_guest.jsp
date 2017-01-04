@@ -63,6 +63,10 @@
 		color: red;
 		margin-bottom: 10px;
 	}
+  #userRegistration {
+    margin-left: 5px;
+    margin-top: 20px;
+  }
         }
     </style>
     <!-- ############# /css ################# -->
