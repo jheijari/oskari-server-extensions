@@ -1,5 +1,9 @@
 # ReleaseNotes
 
+## 1.5.0
+
+Updated to oskari-server 1.41.0
+
 ## 1.2.1
 
 Updated to oskari-server 1.36.2
