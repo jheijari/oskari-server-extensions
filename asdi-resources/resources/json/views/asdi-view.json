@@ -77,6 +77,9 @@
                         "oskariui" : {
                             "bundlePath" : "/Oskari/packages/framework/bundle/"
                         },
+                        "ui-components" : {
+                            "bundlePath" : "/Oskari/packages/framework/bundle/"
+                        },
                         "mapfull" : {
                             "bundlePath" : "/Oskari/packages/framework/bundle/"
                         }
@@ -87,7 +90,6 @@
             },
             "config" : {
                 "globalMapAjaxUrl": "[REPLACED BY HANDLER]",
-                "imageLocation": "/Oskari/resources",
                 "plugins" : [
                     { "id" : "Oskari.mapframework.bundle.mapmodule.plugin.LayersPlugin" },
                     { "id" : "Oskari.mapframework.mapmodule.WmsLayerPlugin" },
