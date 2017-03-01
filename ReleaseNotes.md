@@ -1,5 +1,9 @@
 # ReleaseNotes
 
+## 1.6.0
+
+Added featuredata to user and default views.
+
 ## 1.5.0
 
 Updated to oskari-server 1.41.0
