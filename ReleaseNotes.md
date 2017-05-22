@@ -1,5 +1,13 @@
 # ReleaseNotes
 
+## 1.8.0
+
+Added maprotator bundle to user and default views.
+
+## 1.7.0
+
+Upgraded Oskari version to 1.42
+
 ## 1.6.0
 
 Added featuredata to user and default views.
