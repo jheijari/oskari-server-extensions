@@ -1,5 +1,10 @@
 # ReleaseNotes
 
+## 1.9.0
+
+Upgraded Oskari version to 1.42.1.
+User registration rewrite.
+
 ## 1.8.0
 
 Added maprotator bundle to user and default views.
