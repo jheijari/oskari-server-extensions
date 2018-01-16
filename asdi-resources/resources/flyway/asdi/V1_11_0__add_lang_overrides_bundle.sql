@@ -14,20 +14,13 @@ VALUES
 	'{}',
 	'{}',
 	'{
-            "instanceProps":{},
-            "title":"ASDI lang overrides",
-            "bundleinstancename":"asdi-lang-overrides",
-            "fi":"asdi-lang-overrides",
-            "sv":"asdi-lang-overrides",
-            "en":"asdi-lang-overrides",
-            "bundlename":"asdi-lang-overrides",
-            "metadata": {
-                "Import-Bundle": {
-                    "asdi-lang-overrides": {
-                        "bundlePath":"/Oskari/packages/asdi/bundle/"
-                    }
-                },
-                "Require-Bundle-Instance": []
+        "bundlename":"asdi-lang-overrides",
+        "metadata": {
+            "Import-Bundle": {
+                "asdi-lang-overrides": {
+                    "bundlePath":"/Oskari/packages/asdi/bundle/"
+                }
             }
+        }
     }'
 );
