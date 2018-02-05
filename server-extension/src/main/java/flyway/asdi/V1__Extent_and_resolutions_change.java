@@ -1,5 +1,6 @@
 package flyway.asdi;
 
+import fi.nls.oskari.db.DBHandler;
 import fi.nls.oskari.domain.map.view.Bundle;
 import fi.nls.oskari.domain.map.view.View;
 import fi.nls.oskari.log.LogFactory;
@@ -49,6 +50,11 @@ public class V1__Extent_and_resolutions_change implements JdbcMigration {
 
     public void migrate(Connection connection)
             throws Exception {
+
+
+        // add initial content
+        DBHandler.setupAppContent(connection, "app-asdi.json");
+
         int page = 1;
         while(updateViews(page)) {
             page++;

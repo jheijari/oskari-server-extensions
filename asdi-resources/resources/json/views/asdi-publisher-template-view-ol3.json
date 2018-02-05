@@ -31,52 +31,13 @@
             "mapmodule": {
               "bundlePath": "/Oskari/packages/mapping/ol3/"
             },
-            "service-base": {
-              "bundlePath": "/Oskari/packages/framework/bundle/"
-            },
-            "event-map-layer": {
-              "bundlePath": "/Oskari/packages/framework/bundle/"
-            },
-            "request-map-layer": {
-              "bundlePath": "/Oskari/packages/framework/bundle/"
-            },
             "ui-components": {
-              "bundlePath": "/Oskari/packages/framework/bundle/"
-            },
-            "event-base": {
               "bundlePath": "/Oskari/packages/framework/bundle/"
             },
             "mapfull": {
               "bundlePath": "/Oskari/packages/framework/bundle/"
             },
-            "core-base": {
-              "bundlePath": "/Oskari/packages/framework/bundle/"
-            },
             "oskariui": {
-              "bundlePath": "/Oskari/packages/framework/bundle/"
-            },
-            "request-base": {
-              "bundlePath": "/Oskari/packages/framework/bundle/"
-            },
-            "domain": {
-              "bundlePath": "/Oskari/packages/framework/bundle/"
-            },
-            "core-map": {
-              "bundlePath": "/Oskari/packages/framework/bundle/"
-            },
-            "request-map": {
-              "bundlePath": "/Oskari/packages/framework/bundle/"
-            },
-            "sandbox-base": {
-              "bundlePath": "/Oskari/packages/framework/bundle/"
-            },
-            "service-map": {
-              "bundlePath": "/Oskari/packages/framework/bundle/"
-            },
-            "sandbox-map": {
-              "bundlePath": "/Oskari/packages/framework/bundle/"
-            },
-            "event-map": {
               "bundlePath": "/Oskari/packages/framework/bundle/"
             }
           }
@@ -105,7 +66,6 @@
           "EPSG:3576": "+proj=laea +lat_0=90 +lon_0=90 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs",
           "EPSG:3067": "+proj=utm +zone=35 +ellps=GRS80 +units=m +no_defs"
         },
-        "globalMapAjaxUrl": "[REPLACED BY HANDLER]",
         "plugins": [
           {
             "id": "Oskari.mapframework.bundle.mapmodule.plugin.LayersPlugin"

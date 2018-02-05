@@ -1,15 +1,9 @@
 {
-    "setup" : [
-        "create-empty-db",
-        "register-bundles",
-        "asdi-add-users",
-        "asdi-add-JAAS",
-        {
-            "sql": [
-                "populate-Inspire-themes.sql",
-                "populate-asdi-group.sql"
-            ]
-        }
+    "create": [
+        "populate-asdi-group.sql",
+        "add-inspire-themes.sql",
+        "asdi-users.sql",
+        "asdi-credentials.sql"
     ],
     "views" : [
         "asdi-view.json",

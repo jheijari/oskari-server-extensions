@@ -66,14 +66,14 @@ public class V1_1_3__maplayer_categories_update implements JdbcMigration {
         // oskari_maplayer_themes should cascade delete;
         // SELECT maplayerid, themeid FROM oskari_maplayer_themes;
         // SELECT id, locale FROM portti_inspiretheme;
-        final String sql = "DELETE FROM portti_inspiretheme";
+        final String sql = "DELETE FROM oskari_maplayer_group";
         try (final PreparedStatement statement = conn.prepareStatement(sql)){
             statement.execute();
         }
     }
 
     private void insertCategories(List<JSONObject> categories, Connection conn) throws SQLException {
-        final String sql = "INSERT INTO portti_inspiretheme (locale) VALUES (?)";
+        final String sql = "INSERT INTO oskari_maplayer_group (locale) VALUES (?)";
         for(JSONObject theme : categories) {
             try (final PreparedStatement statement = conn.prepareStatement(sql)){
                 statement.setString(1, theme.toString());
@@ -82,7 +82,7 @@ public class V1_1_3__maplayer_categories_update implements JdbcMigration {
         }
     }
     private void linkLayers(List<Long> layers, final long themeid, Connection conn) throws SQLException {
-        final String sql = "INSERT INTO oskari_maplayer_themes (maplayerid, themeid) VALUES (?, ?)";
+        final String sql = "INSERT INTO oskari_maplayer_group_link (maplayerid, themeid) VALUES (?, ?)";
         for(Long layerid : layers) {
             try (final PreparedStatement statement = conn.prepareStatement(sql)){
                 statement.setLong(1, layerid);
@@ -93,7 +93,7 @@ public class V1_1_3__maplayer_categories_update implements JdbcMigration {
     }
 
     private long getSomeRandomCategoryId(Connection connection) throws Exception {
-        final String sql = "SELECT id FROM portti_inspiretheme LIMIT 1";
+        final String sql = "SELECT id FROM oskari_maplayer_group LIMIT 1";
         try (final PreparedStatement statement = connection.prepareStatement(sql)) {
             try (ResultSet rs = statement.executeQuery()) {
                 if(rs.next()) {
