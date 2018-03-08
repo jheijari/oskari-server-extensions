@@ -11,7 +11,7 @@ import fi.nls.oskari.service.ServiceException;
 import fi.nls.oskari.service.capabilities.CapabilitiesCacheService;
 import fi.nls.oskari.service.capabilities.OskariLayerCapabilities;
 import fi.nls.oskari.util.JSONHelper;
-import fi.nls.oskari.util.ServiceFactory;
+import org.oskari.service.util.ServiceFactory;
 import org.flywaydb.core.api.migration.jdbc.JdbcMigration;
 import org.json.JSONArray;
 import org.json.JSONException;
