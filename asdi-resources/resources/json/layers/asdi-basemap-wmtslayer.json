@@ -1,6 +1,6 @@
 {
     "type": "wmtslayer",
-    "url": "http://opencache.statkart.no/gatekeeper/gk/gk.open_wmts",
+    "url": "https://opencache.statkart.no/gatekeeper/gk/gk.open_wmts",
     "name": "arcticsdi_wmts",
     "organization": "ASDI",
     "inspiretheme": "Background maps",
