@@ -27,6 +27,11 @@
             <version>${oskari.version}</version>
         </dependency>
         <dependency>
+            <groupId>org.oskari</groupId>
+            <artifactId>service-capabilities-update</artifactId>
+            <version>${oskari.version}</version>
+        </dependency>
+        <dependency>
             <groupId>asdi.oskari</groupId>
             <artifactId>asdi-resources</artifactId>
             <version>${project.version}</version>
