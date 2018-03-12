@@ -82,7 +82,7 @@ public class V1_1_3__maplayer_categories_update implements JdbcMigration {
         }
     }
     private void linkLayers(List<Long> layers, final long themeid, Connection conn) throws SQLException {
-        final String sql = "INSERT INTO oskari_maplayer_group_link (maplayerid, themeid) VALUES (?, ?)";
+        final String sql = "INSERT INTO oskari_maplayer_group_link (maplayerid, groupid) VALUES (?, ?)";
         for(Long layerid : layers) {
             try (final PreparedStatement statement = conn.prepareStatement(sql)){
                 statement.setLong(1, layerid);
