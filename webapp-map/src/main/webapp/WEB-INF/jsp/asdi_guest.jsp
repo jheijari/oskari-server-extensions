@@ -6,10 +6,7 @@
 <head>
     <title>Arctic SDI - ${viewName}</title>
     <meta charset="utf-8"/>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript"
-            src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
+    <script src="/Oskari/libraries/jquery/jquery-1.10.2.min.js"></script>
 
     <!-- ############# css ################# -->
     <link type="text/css" rel="stylesheet"
