@@ -6,7 +6,6 @@
 <head>
     <title>Arctic SDI - ${viewName}</title>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="/Oskari/libraries/jquery/jquery-1.10.2.min.js"></script>
 
     <!-- ############# css ################# -->
