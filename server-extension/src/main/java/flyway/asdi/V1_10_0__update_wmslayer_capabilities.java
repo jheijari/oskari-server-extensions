@@ -46,10 +46,14 @@ public class V1_10_0__update_wmslayer_capabilities implements JdbcMigration {
             if(!layer.getType().equals(OskariLayer.TYPE_WMS)) {
                 continue;
             }
-            updateCaps(layer);
-            // save layer.getStyle() and layer.getCapabilities()
-            mapLayerService.update(layer);
-            updateCount++;
+            try {
+                updateCaps(layer);
+                // save layer.getStyle() and layer.getCapabilities()
+                mapLayerService.update(layer);
+                updateCount++;
+            } catch(Exception ex) {
+                LOG.warn(ex, "Couldn't update capabilities for", layer.getUrl());
+            }
         }
         return updateCount;
     }
