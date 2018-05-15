@@ -61,7 +61,7 @@ public class V1_10_0__update_wmslayer_capabilities implements JdbcMigration {
 
     private void updateCaps(final OskariLayer ml) throws JSONException {
         try {
-            OskariLayerCapabilities capabilities = capabilitiesService.getCapabilities(ml, true);
+            OskariLayerCapabilities capabilities = capabilitiesService.getCapabilities(ml);
             // flush cache, otherwise only db is updated but code retains the old cached version
             WebMapServiceFactory.flushCache(ml.getId());
             // parse capabilities
@@ -76,6 +76,7 @@ public class V1_10_0__update_wmslayer_capabilities implements JdbcMigration {
             if (style != null) {
                 ml.setStyle(style);
             }
+            capabilitiesService.save(capabilities);
         } catch (Exception e) {}
     }
 
