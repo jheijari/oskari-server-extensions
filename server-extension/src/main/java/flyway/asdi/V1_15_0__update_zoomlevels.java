@@ -26,9 +26,8 @@ public class V1_15_0__update_zoomlevels implements JdbcMigration {
     public void migrate(Connection connection)
             throws Exception {
         service = new ViewServiceIbatisImpl();
-        resolutions = new JSONArray(Arrays.asList(new double[]{
-                38197.92815, 19098.96407, 9549.482037, 4774.741019, 2387.370509, 1193.685255, 596.8426273,
-                298.4213137, 149.2106568, 74.60532841, 37.30266421, 18.6513321, 9.325666052}));
+        resolutions = new JSONArray(Arrays.asList(38197.92815, 19098.96407, 9549.482037, 4774.741019, 2387.370509, 1193.685255, 596.8426273,
+                298.4213137, 149.2106568, 74.60532841, 37.30266421, 18.6513321, 9.325666052));
         int page = 1;
         while (updateViews(page)) {
             page++;
