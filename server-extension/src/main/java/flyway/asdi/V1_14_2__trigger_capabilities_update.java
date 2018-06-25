@@ -24,7 +24,11 @@ public class V1_14_2__trigger_capabilities_update implements JdbcMigration {
         CapabilitiesUpdateService capabilitiesUpdateService = new CapabilitiesUpdateService(
                 layerService, capabilitiesCacheService);
 
-        capabilitiesUpdateService.updateCapabilities(layerService.findAll(), getSystemCRSs());
+        try {
+            capabilitiesUpdateService.updateCapabilities(layerService.findAll(), getSystemCRSs());
+        } catch (Exception ignore) {
+            // some will fail and that is ok
+        }
     }
 
     private Set<String> getSystemCRSs() throws ServiceException {
