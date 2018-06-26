@@ -7,7 +7,6 @@
     <title>Arctic SDI - ${viewName}</title>
     <meta charset="utf-8"/>
     <script src="/Oskari/libraries/jquery/jquery-1.10.2.min.js"></script>
-
     <!-- ############# css ################# -->
     <link type="text/css" rel="stylesheet"
           href="//fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800,800italic,600italic,600"/>
@@ -127,10 +126,18 @@
         </c:choose>
     </div>
 </nav>
-<div id="contentMap">
-    <div id="mapdiv"></div>
+<div id="contentMap" class="oskariui container-fluid">
+    <div id="menutoolbar" class="container-fluid"></div>
+    <div class="row-fluid oskariui-mode-content" style="height: 100%; background-color:white;">
+        <div class="oskariui-left"></div>
+        <div class="span12 oskariui-center" style="height: 100%; margin: 0;">
+            <div id="mapdiv"></div>
+        </div>
+        <div class="oskari-closed oskariui-right">
+            <div id="mapdivB"></div>
+        </div>
+    </div>
 </div>
-
 
 <!-- ############# Javascript ################# -->
 
