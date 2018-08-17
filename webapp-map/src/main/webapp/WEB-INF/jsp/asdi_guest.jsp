@@ -103,8 +103,10 @@
                     </div>
                 </c:if>
                 <div class="link">
-                    <a href="${pageContext.request.contextPath}${_logout_uri}"><spring:message code="logout"
-                                                                                               text="Logout"/></a>
+                    <form action="${pageContext.request.contextPath}${_logout_uri}" method="POST" id="logoutform">
+                        <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                        <a href="${pageContext.request.contextPath}${_logout_uri}" onClick="jQuery('#logoutform').submit();return false;"><spring:message code="logout" text="Logout" /></a>
+                    </form>
                 </div>
             </c:when>
             <%-- Otherwise show appropriate logins --%>
