@@ -6,7 +6,7 @@
 <head>
     <title>Arctic SDI - ${viewName}</title>
     <meta charset="utf-8"/>
-    <script src="/Oskari/libraries/jquery/jquery-1.10.2.min.js"></script>
+    <script src="/Oskari/libraries/jquery/jquery-3.3.1.min.js"></script>
     <!-- ############# css ################# -->
     <link type="text/css" rel="stylesheet"
           href="//fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800,800italic,600italic,600"/>
