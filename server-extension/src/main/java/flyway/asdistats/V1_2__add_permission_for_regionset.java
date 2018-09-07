@@ -50,7 +50,7 @@ public class V1_2__add_permission_for_regionset implements JdbcMigration {
     // statslayers described as layer resources for permissions handling
     private List<Resource> getResources() {
         List<Resource> list = new ArrayList<>();
-        list.add(new OskariLayerResource(OskariLayer.TYPE_STATS, "http://localhost:8080/geoserver/asdi/wms", "asdi:countries"));
+        list.add(new OskariLayerResource(OskariLayer.TYPE_STATS, "resources://regionsets/countries.json", "countries"));
         return list;
     }
 
