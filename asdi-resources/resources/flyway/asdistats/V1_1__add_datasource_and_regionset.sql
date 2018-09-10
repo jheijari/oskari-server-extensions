@@ -3,15 +3,15 @@ INSERT INTO oskari_maplayer(type, url,
                     locale,
                     attributes, internal, srs_name)
 VALUES(
-    'statslayer', 'resources://regionsets/countries.json',
-    'countries', (SELECT MAX(id) FROM oskari_dataprovider),
+    'statslayer', 'resources://regionsets/ne_110m_countries-3575.json',
+    'ne_110m_countries-3575', (SELECT MAX(id) FROM oskari_dataprovider),
     '{ "en" : {
         "name":"Countries"
     }}',
     '{
         "statistics" : {
-            "featuresUrl":"resources://regionsets/countries.json",
-            "regionIdTag":"ISO2",
+            "featuresUrl":"resources://regionsets/ne_110m_countries-3575.json",
+            "regionIdTag":"ISO_A2",
             "nameIdTag":"NAME"
         }
     }', true, 'EPSG:3575');
@@ -28,5 +28,5 @@ INSERT INTO
 VALUES(
     (SELECT id FROM oskari_statistical_datasource 
         WHERE locale like '%Your indicators%'),
-    (SELECT id FROM oskari_maplayer WHERE type='statslayer' AND name = 'countries'),
+    (SELECT id FROM oskari_maplayer WHERE type='statslayer' AND name = 'ne_110m_countries-3575'),
     '{}');
