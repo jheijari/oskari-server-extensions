@@ -5,7 +5,7 @@
     <parent>
         <groupId>asdi.oskari</groupId>
         <artifactId>asdi-parent</artifactId>
-        <version>1.11.0</version>
+        <version>1.13.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>webapp-map</artifactId>
@@ -39,6 +39,11 @@
         <dependency>
             <groupId>fi.nls.oskari.service</groupId>
             <artifactId>oskari-control-example</artifactId>
+            <version>${oskari.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>fi.nls.oskari.service</groupId>
+            <artifactId>oskari-control-statistics</artifactId>
             <version>${oskari.version}</version>
         </dependency>
 
