@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Add statsgrid bundle to views that don't have it.
+ * Add permissions for regionset: countries
  */
 public class V1_2__add_permission_for_regionset implements JdbcMigration {
 
