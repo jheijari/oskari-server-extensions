@@ -7,18 +7,9 @@
     <title>Arctic SDI - ${viewName}</title>
     <link rel="shortcut icon" href="/Oskari${path}/css/asdi_logoplugin_logo.png" type="image/png" />
     <meta charset="utf-8"/>
-    <script src="/Oskari/libraries/jquery/jquery-3.3.1.min.js"></script>
     <!-- ############# css ################# -->
     <link type="text/css" rel="stylesheet"
           href="//fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800,800italic,600italic,600"/>
-    <link
-            rel="stylesheet"
-            type="text/css"
-            href="/Oskari/resources/css/forms.css"/>
-    <link
-            rel="stylesheet"
-            type="text/css"
-            href="/Oskari/resources/css/portal.css"/>
     <link
             rel="stylesheet"
             type="text/css"
@@ -37,7 +28,7 @@
             #login input[type="text"], #login input[type="password"] {
                 width: 90%;
                 margin-bottom: 5px;
-                background-image: url("/Oskari/resources/images/forms/input_shadow.png");
+                background-image: url("/Oskari/${version}/resources/images/forms/input_shadow.png");
                 background-repeat: no-repeat;
                 padding-left: 5px;
                 padding-right: 5px;
