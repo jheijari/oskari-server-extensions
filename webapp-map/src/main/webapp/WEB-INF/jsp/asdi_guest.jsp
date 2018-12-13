@@ -162,7 +162,8 @@
     /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
-    _paq.push(['setDocumentTitle', document.domain + "/" + document.title]);
+    _paq.push(['setDocumentTitle', document.domain + "/${appsetupUUID}"]);
+    _paq.push(['setCustomVariable', 1, "Type", "${appsetupType}", "visit"]);
     (function() {
         var u="https://piwik.nls.fi/";
         _paq.push(['setTrackerUrl', u+'piwik.php']);
