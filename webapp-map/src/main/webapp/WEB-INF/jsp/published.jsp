@@ -87,6 +87,57 @@
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
         g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
     })();
+
+
+    function _pushEvent  (/* variadic */) {
+        var args = Array.prototype.slice.call(arguments);
+        args.unshift('trackEvent');
+        _paq.push(args);
+    }
+
+    jQuery('#mapdiv .mapplugin.mylocationplugin').on('click', function () {
+        _pushEvent('Maptools', 'mylocationtool');
+    });
+    jQuery('#mapdiv .mapplugin.coordinatetool').on('click', function () {
+        _pushEvent('Maptools', 'coordinatetool');
+    });
+
+    var eventHandlers = {
+        'userinterface.ExtensionUpdatedEvent': function (event) {
+            if (event.getViewState() === 'attach') {
+                _pushEvent('Tile', event.getExtension().getName());
+            }
+        },
+        'SearchResultEvent': function (event) {
+            var resultSize = event.getSuccess() ? event.getResult().totalCount || 0 : 0;
+            var params = event.getRequestParameters();
+            if (typeof params === 'object') {
+                params = params.searchKey;
+            }
+            _paq.push(['trackSiteSearch',
+                // Search keyword searched for
+                params,
+                // Search category selected in your search engine. If you do not need this, set to false
+                false,
+                // Number of results on the Search results page. Zero indicates a 'No Result Search Keyword'. Set to false if you don't know
+                resultSize
+            ]);
+        }
+    };
+    var fakeBundle = {
+        getName: function() {return "Telemetry"},
+        onEvent: function(event) {
+            var handler = eventHandlers[event.getName()];
+            if (handler) {
+                handler(event);
+            }
+        }
+    };
+
+    var _sandbox = Oskari.getSandbox();
+    Object.keys(eventHandlers).forEach( function (name) {
+        _sandbox.registerForEventByName(fakeBundle, name);
+    });
 </script>
 <!-- End Matomo Code -->
 
