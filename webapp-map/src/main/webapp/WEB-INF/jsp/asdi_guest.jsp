@@ -161,7 +161,8 @@
     var _paq = _paq || [];
     _paq.push(['enableLinkTracking']);
     _paq.push(['setDocumentTitle', document.domain + "/${appsetupUUID}"]);
-    _paq.push(['setCustomVariable', 1, "Type", "${appsetupType}", "visit"]);
+    _paq.push(['setCustomVariable', 1, "Type", "${appsetupType}", "page"]);
+    _paq.push(['setCustomVariable', 2, "Domain", document.domain, "page"]);
     /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
     _paq.push(['trackPageView']);
     (function() {
