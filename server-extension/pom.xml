@@ -12,6 +12,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>fi.nls.oskari</groupId>
+            <artifactId>content-resources</artifactId>
+        </dependency>
+        <dependency>
             <groupId>fi.nls.oskari.service</groupId>
             <artifactId>oskari-users</artifactId>
         </dependency>
@@ -22,7 +26,7 @@
         <dependency>
             <groupId>fi.nls.oskari.extras</groupId>
             <artifactId>oskari-search-nls</artifactId>
-            <version>2.1</version>
+            <version>3.1</version>
         </dependency>
         <dependency>
             <groupId>org.oskari</groupId>
