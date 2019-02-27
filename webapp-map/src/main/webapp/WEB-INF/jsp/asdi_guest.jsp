@@ -156,6 +156,8 @@
         src="/Oskari${path}/index.js">
 </script>
 
+<% pageContext.setAttribute("hasTracking", !"test".equals(request.getParameter("tracking"))); %>
+<c:if test="${hasTracking}">
 <!-- Matomo -->
 <script type="text/javascript">
     var _paq = _paq || [];
@@ -233,6 +235,7 @@
 
 </script>
 <!-- End Matomo Code -->
+</c:if>
 
 <!-- ############# /Javascript ################# -->
 </body>
