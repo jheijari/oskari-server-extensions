@@ -2,8 +2,8 @@ package flyway.asdi;
 
 import fi.nls.oskari.domain.map.view.Bundle;
 import fi.nls.oskari.domain.map.view.View;
+import fi.nls.oskari.map.view.AppSetupServiceMybatisImpl;
 import fi.nls.oskari.map.view.ViewService;
-import fi.nls.oskari.map.view.ViewServiceIbatisImpl;
 import fi.nls.oskari.util.PropertyUtil;
 import org.flywaydb.core.api.migration.jdbc.JdbcMigration;
 import org.json.JSONObject;
@@ -22,7 +22,7 @@ public class V1_7_0__sync_mapOptions_for_publish_template implements JdbcMigrati
 
     public void migrate(Connection connection)
             throws Exception {
-        ViewService service = new ViewServiceIbatisImpl();
+        ViewService service = new AppSetupServiceMybatisImpl();
         View defaultView = service.getViewWithConf(PropertyUtil.getOptional("view.default", -1));
         if(defaultView == null) {
             throw new RuntimeException("Couldn't load default view");

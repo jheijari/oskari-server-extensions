@@ -5,13 +5,11 @@ import fi.nls.oskari.domain.map.view.View;
 import fi.nls.oskari.domain.map.view.ViewTypes;
 import fi.nls.oskari.log.LogFactory;
 import fi.nls.oskari.log.Logger;
+import fi.nls.oskari.map.view.AppSetupServiceMybatisImpl;
 import fi.nls.oskari.map.view.ViewService;
-import fi.nls.oskari.map.view.ViewServiceIbatisImpl;
 import fi.nls.oskari.util.JSONHelper;
 import fi.nls.oskari.view.modifier.ViewModifier;
 import org.flywaydb.core.api.migration.jdbc.JdbcMigration;
-import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.sql.Connection;
@@ -24,12 +22,13 @@ public class V1_5_5__Add_mapwfs2_to_mapfull_imports implements JdbcMigration {
 
     private static final Logger LOG = LogFactory.getLogger(V1_5_5__Add_mapwfs2_to_mapfull_imports.class);
 
-    private ViewService service = new ViewServiceIbatisImpl();
+    private ViewService service;
     private static final int BATCH_SIZE = 50;
     private int updatedViewCount = 0;
 
     public void migrate(Connection connection)
             throws Exception {
+        service = new AppSetupServiceMybatisImpl();
         int page = 1;
         while(updateViews(page)) {
             page++;

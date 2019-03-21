@@ -1,8 +1,8 @@
 package flyway.asdi;
 
 import fi.nls.oskari.domain.map.view.View;
+import fi.nls.oskari.map.view.AppSetupServiceMybatisImpl;
 import fi.nls.oskari.map.view.ViewService;
-import fi.nls.oskari.map.view.ViewServiceIbatisImpl;
 import org.flywaydb.core.api.migration.jdbc.JdbcMigration;
 import org.json.JSONObject;
 
@@ -18,7 +18,7 @@ public class V1_14_0__projection_appsetups implements JdbcMigration {
 
     public void migrate(Connection connection)
             throws Exception {
-        ViewService service = new ViewServiceIbatisImpl();
+        ViewService service = new AppSetupServiceMybatisImpl();
         View defaultView = service.getViewWithConf(service.getDefaultViewId());
         for(String srs : PROJECTIONS_TO_ADD) {
             View view = defaultView.cloneBasicInfo();

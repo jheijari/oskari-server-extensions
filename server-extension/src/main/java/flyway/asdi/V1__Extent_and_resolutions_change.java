@@ -5,8 +5,8 @@ import fi.nls.oskari.domain.map.view.Bundle;
 import fi.nls.oskari.domain.map.view.View;
 import fi.nls.oskari.log.LogFactory;
 import fi.nls.oskari.log.Logger;
+import fi.nls.oskari.map.view.AppSetupServiceMybatisImpl;
 import fi.nls.oskari.map.view.ViewService;
-import fi.nls.oskari.map.view.ViewServiceIbatisImpl;
 import fi.nls.oskari.util.JSONHelper;
 import fi.nls.oskari.view.modifier.ViewModifier;
 import org.flywaydb.core.api.migration.jdbc.JdbcMigration;
@@ -23,7 +23,7 @@ public class V1__Extent_and_resolutions_change implements JdbcMigration {
 
     private static final Logger LOG = LogFactory.getLogger(V1__Extent_and_resolutions_change.class);
 
-    private ViewService service = new ViewServiceIbatisImpl();
+    private ViewService service;
     private static final int BATCH_SIZE = 50;
     private static final double[] NEW_RESOLUTIONS = {
             38197.92815,
@@ -51,7 +51,7 @@ public class V1__Extent_and_resolutions_change implements JdbcMigration {
     public void migrate(Connection connection)
             throws Exception {
 
-
+        service = new AppSetupServiceMybatisImpl();
         // add initial content
         DBHandler.setupAppContent(connection, "app-asdi.json");
 

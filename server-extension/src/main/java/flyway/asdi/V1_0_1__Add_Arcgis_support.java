@@ -4,8 +4,8 @@ import fi.nls.oskari.domain.map.view.Bundle;
 import fi.nls.oskari.domain.map.view.View;
 import fi.nls.oskari.log.LogFactory;
 import fi.nls.oskari.log.Logger;
+import fi.nls.oskari.map.view.AppSetupServiceMybatisImpl;
 import fi.nls.oskari.map.view.ViewService;
-import fi.nls.oskari.map.view.ViewServiceIbatisImpl;
 import fi.nls.oskari.util.JSONHelper;
 import fi.nls.oskari.view.modifier.ViewModifier;
 import org.flywaydb.core.api.migration.jdbc.JdbcMigration;
@@ -23,7 +23,7 @@ public class V1_0_1__Add_Arcgis_support implements JdbcMigration {
 
     private static final Logger LOG = LogFactory.getLogger(V1_0_1__Add_Arcgis_support.class);
 
-    private ViewService service = new ViewServiceIbatisImpl();
+    private ViewService service = new AppSetupServiceMybatisImpl();
     private static final int BATCH_SIZE = 50;
     private int updatedViewCount = 0;
 

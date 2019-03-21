@@ -4,8 +4,8 @@ import fi.nls.oskari.domain.map.view.Bundle;
 import fi.nls.oskari.domain.map.view.View;
 import fi.nls.oskari.log.LogFactory;
 import fi.nls.oskari.log.Logger;
+import fi.nls.oskari.map.view.AppSetupServiceMybatisImpl;
 import fi.nls.oskari.map.view.ViewService;
-import fi.nls.oskari.map.view.ViewServiceIbatisImpl;
 import fi.nls.oskari.view.modifier.ViewModifier;
 import org.flywaydb.core.api.migration.jdbc.JdbcMigration;
 import org.json.JSONArray;
@@ -22,7 +22,7 @@ public class V1_5_0__Remove_LogoPlugin_config implements JdbcMigration {
 
     private static final Logger LOG = LogFactory.getLogger(V1_5_0__Remove_LogoPlugin_config.class);
 
-    private ViewService service = new ViewServiceIbatisImpl();
+    private ViewService service;
     private static final int BATCH_SIZE = 50;
     private int updatedViewCount = 0;
 
@@ -30,6 +30,7 @@ public class V1_5_0__Remove_LogoPlugin_config implements JdbcMigration {
 
     public void migrate(Connection connection)
             throws Exception {
+        service = new AppSetupServiceMybatisImpl();
         int page = 1;
         while(updateViews(page)) {
             page++;
