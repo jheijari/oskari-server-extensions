@@ -120,6 +120,7 @@
             </c:otherwise>
         </c:choose>
     </div>
+    <div id="language-selector-root"></div>
 </nav>
 <div id="contentMap" class="oskariui container-fluid">
     <div id="menutoolbar" class="container-fluid"></div>
