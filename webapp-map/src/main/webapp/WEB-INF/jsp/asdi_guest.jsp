@@ -23,6 +23,7 @@
         @media screen {
             #login {
                 margin-left: 5px;
+                margin-right: 5px;
                 margin-top: 20px;
             }
 
@@ -41,7 +42,7 @@
             }
 
             #login input[type="submit"] {
-                width: 90%;
+                width: 100%;
                 margin-bottom: 5px;
                 padding-left: 5px;
                 padding-right: 5px;
@@ -60,6 +61,10 @@
 
             #login div.link {
                 padding: 5px;
+            }
+
+            #language-selector-root {
+                padding: 10px 5px 0 5px;
             }
         }
     </style>
