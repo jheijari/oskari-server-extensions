@@ -46,6 +46,12 @@
         </dependency>
 
         <dependency>
+            <groupId>org.oskari.service</groupId>
+            <artifactId>oskari-statistics-unsd</artifactId>
+            <version>${oskari.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>fi.nls.oskari.service</groupId>
             <artifactId>oskari-control-admin</artifactId>
         </dependency>
