@@ -12,7 +12,7 @@ import java.sql.SQLException;
 public class V1_6__add_unsd_datasources implements JdbcMigration {
 
     private static final String layer = "ne_110m_countries-3575";
-    private static final String prefix = "UN Agenda 2030 SDG Goal";
+    private static final String prefix = "UN Agenda 2030 SD Goal";
 
     public void migrate(Connection connection) throws Exception {
         addDS(connection, "No poverty", "1");
