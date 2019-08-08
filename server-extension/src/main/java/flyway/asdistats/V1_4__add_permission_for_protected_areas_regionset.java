@@ -1,8 +1,8 @@
 package flyway.asdistats;
 
 import fi.nls.oskari.domain.map.OskariLayer;
-import fi.nls.oskari.map.data.domain.OskariLayerResource;
-import fi.nls.oskari.permission.domain.Resource;
+import org.oskari.permissions.model.OskariLayerResource;
+import org.oskari.permissions.model.Resource;
 
 import java.util.ArrayList;
 import java.util.List;
